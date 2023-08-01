@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,700;1,700&family=Roboto:wght@100;300;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5.5rem;
+    background-color: #F20530;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.header .logo a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    padding: 2rem;
+    color: white;
+    font-family: 'Cuprum', sans-serif;
+}
+
+.header .nav-menu ul {
+    display: flex;
+}
+
+.header .nav-menu ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1.5rem;
+    list-style-type: none;
+}
+
+.header .nav-menu ul:last-child {
+    margin-right: 0.5rem;
+}
+
+.header .nav-menu ul li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    
+}
+
+.header .nav-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15%;
+}
+
+.text h1 {
+    color: #F20530;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.text .message {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.text .description {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.order-button button {
+    padding: 0.6rem 1.8rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #F20530;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.order-button button:hover {
+    cursor: pointer;
+    background-color: #fc385c;
+}
+
+.main .image img {
+    width: 700px;
+}
